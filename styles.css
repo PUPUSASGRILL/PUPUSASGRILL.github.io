@@ -375,7 +375,7 @@ QUIENES SOME--------------------------------------------------------------------
 
 @media screen and (max-width: 780px) {
     .quienes {
-        height: 60vh;
+        height: 50vh;
     }
 
     .quienes h1 {
@@ -683,7 +683,7 @@ COMBOS Y SUS COLUMNAS-----------------------------------------------------------
 */
 .container__menu h1 {
     text-align: center;
-    font-size: 56px;
+    font-size: 46px;
     color: #368f2b;
     background-size: 100%;
     margin-bottom: 40px;
