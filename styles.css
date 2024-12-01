@@ -565,7 +565,7 @@ LOCALIZACIONES------------------------------------------------------------------
 
 @media screen and (max-width: 480px) {
     .services {
-        height: 800vh;
+        height: 700vh;
     }
 
     .services h1 {
@@ -848,7 +848,7 @@ COMBOS Y SUS COLUMNAS-----------------------------------------------------------
 
 @media (max-width: 480px) {
     .menu-container {
-        height: 375px;
+        height: 385px;
         width: 100%;
     }
 
