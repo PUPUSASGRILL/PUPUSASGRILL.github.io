@@ -56,7 +56,6 @@ NAVBAR--------------------------------------------------------------------------
     color: #368f2b; 
 }
 
-
 .fa-solid fa-utensils {
     margin-right: 0.5rem;
 }
@@ -515,12 +514,6 @@ LOCALIZACIONES------------------------------------------------------------------
     left: 30px;
 }
 
-/*.services__card p {
-    position: absolute;
-    top: 400px;
-    left: 30px;
-}*/
-
 .services__card button {
     color: #fff;
     padding: 10px 20px;
@@ -811,7 +804,7 @@ OPCION DE PRODUCTO PARA LOS COMBOS----------------------------------------------
     background-color: #212228;
     color: #fff;
     border-radius: 20px;
-    padding: 20px 40px;
+    padding: 20px 20px;
     margin: 30px 142px 60px;
     display: flex;
     justify-content: center; 
@@ -1052,7 +1045,7 @@ COMBO FAMILIAR------------------------------------------------------------------
 @media (max-width: 480px) {
     .combo-container1 {
         margin: 30px 20px 60px;
-        padding: 15px;
+        padding: 5px;
         position: relative; 
         flex-direction: column; 
     }
@@ -1085,17 +1078,17 @@ COMBO FAMILIAR------------------------------------------------------------------
     }
 
     .combo-title1 {
-        margin-top: 100px;
+        margin-top: 50px;
         font-size: 38px;
     }
 
     .combo-description1 {
-        font-size: 18px;
+        font-size: 20px;
         gap: 5px;
     }
 
     .combo-price1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -1376,7 +1369,6 @@ COMBO GRILL---------------------------------------------------------------------
         padding: 3px 6px;
     }
 }
-
 
 /*
 POPUP--------------------------------------------------------------------------------------
