@@ -565,7 +565,7 @@ LOCALIZACIONES------------------------------------------------------------------
 
 @media screen and (max-width: 480px) {
     .services {
-        height: 900vh;
+        height: 800vh;
     }
 
     .services h1 {
