@@ -227,8 +227,7 @@ MAIN SECTION--------------------------------------------------------------------
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
-    margin: 0 auto;
-    height: 90vh;
+    margin: 50px auto;
     background-color: #f6f6f6;
     z-index: 1;
     width: 100%;
@@ -281,7 +280,6 @@ MAIN SECTION--------------------------------------------------------------------
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100vh;
         padding: 0;
     }
 
@@ -313,7 +311,6 @@ MAIN SECTION--------------------------------------------------------------------
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100vh;
         padding: 0;
     }
 
@@ -341,7 +338,7 @@ QUIENES SOME--------------------------------------------------------------------
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    margin-bottom: 50px;
 }
 
 .quienes h1 {
@@ -373,10 +370,6 @@ QUIENES SOME--------------------------------------------------------------------
 }
 
 @media screen and (max-width: 780px) {
-    .quienes {
-        height: 50vh;
-    }
-
     .quienes h1 {
         font-size: 3rem;
         margin-top: 2rem;
@@ -389,10 +382,6 @@ QUIENES SOME--------------------------------------------------------------------
 }
 
 @media screen and (max-width: 480px) {
-    .quienes {
-        height: 70vh;
-    }
-
     .quienes h1 {
         font-size: 2.5rem;
         margin-top: 2rem;
@@ -411,7 +400,7 @@ LOCALIZACIONES------------------------------------------------------------------
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 490vh;
+    margin-bottom: 50px;
 }
 
 .services h1 {
@@ -541,10 +530,6 @@ LOCALIZACIONES------------------------------------------------------------------
 }
 
 @media screen and (max-width: 780px) {
-    .services {
-        height: 550vh;
-    }
-
     .services h1 {
         font-size: 3rem;
         text-align: center;
@@ -557,10 +542,6 @@ LOCALIZACIONES------------------------------------------------------------------
 }
 
 @media screen and (max-width: 480px) {
-    .services {
-        height: 990vh;
-    }
-
     .services h1 {
         font-size: 3rem;
         text-align: center;
@@ -671,6 +652,17 @@ SOCIAL ICON---------------------------------------------------------------------
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 /*
 COMBOS Y SUS COLUMNAS---------------------------------------------------------------------------
 */
