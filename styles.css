@@ -653,16 +653,6 @@ SOCIAL ICON---------------------------------------------------------------------
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 /*
 COMBOS Y SUS COLUMNAS---------------------------------------------------------------------------
 */
@@ -1395,18 +1385,19 @@ POPUP---------------------------------------------------------------------------
 }
 
 .close-btn {
-    margin-top: 24px;
-    padding: 8px 15px;
-    background-color: #368f2b;
-    color: white;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background: none;
     border: none;
-    border-radius: 5px;
+    color: #368f2b;
+    font-size: 28px;
+    font-weight: bold;
     cursor: pointer;
-    font-size: 20px;
 }
 
 .close-btn:hover {
-    background-color: #bca614;
+    color: #bca614; 
 }
   
 @media (max-width: 480px) {
@@ -1436,37 +1427,88 @@ POPUP---------------------------------------------------------------------------
     background: #fff;
     padding: 15px;
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     position: relative;
     max-width: 90%; 
     max-height: 90%; 
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .image-popup-content img {
-    max-width: 100%;
+    max-width: 70%; 
     max-height: 80vh; 
     height: auto;
     border-radius: 5px;
 }
 
 .close-image-btn {
-    padding: 8px 15px;
-    background-color: #368f2b;
-    color: white;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background: none;
     border: none;
-    border-radius: 5px;
+    color: #368f2b;
+    font-size: 28px;
+    font-weight: bold;
     cursor: pointer;
-    align-self: center;
 }
 
 .close-image-btn:hover {
-    background-color: #bca614;
+    color: #bca614; 
 }
 
 body.no-scroll {
     overflow: hidden;
 }
 
+.location-option-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.location-option-container button {
+    padding: 8px 15px;
+    margin: 5px 0;
+    background-color: #368f2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+}
+
+.location-option-container button:hover {
+    background-color: #bca614;
+}
+
+@media screen and (max-width: 480px) {
+    .image-popup-content {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .image-popup-content img {
+        max-width: 90%; 
+        margin-bottom: 5px;
+    }
+
+    .location-option-container {
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 5px; 
+        width: 100%; 
+        justify-items: center; 
+    }
+
+    .location-option-container button {
+        text-align: center;
+    }
+}
