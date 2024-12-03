@@ -1406,7 +1406,7 @@ POPUP---------------------------------------------------------------------------
     
     }
     .close-btn {
-        font-size: 20px;
+        font-size: 28px;
     }
 }
 
@@ -1470,6 +1470,11 @@ body.no-scroll {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 20px;
+}
+
+.location-option-container a {
+        color: inherit; /* Makes the link color the same as the surrounding text */
+        text-decoration: none; /* Removes the underline */    
 }
 
 .location-option-container button {
