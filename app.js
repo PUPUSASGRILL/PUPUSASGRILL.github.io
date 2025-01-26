@@ -6,6 +6,7 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 });
 
+
 const openPopup = document.getElementById('openPopup');
         const closePopup = document.getElementById('closePopup');
         const popup = document.getElementById('popup');
@@ -20,6 +21,7 @@ const openPopup = document.getElementById('openPopup');
             popup.style.display = 'none';
             document.body.classList.remove('no-scroll');
         });
+
 
         const openImagePopup = document.getElementById('openImagePopup');
         const closeImagePopup = document.getElementById('closeImagePopup');
